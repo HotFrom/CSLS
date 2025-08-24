@@ -25,9 +25,7 @@ We use the **Devign** dataset for all experiments. The dataset is divided into:
 2. Training, Evaluation, and Testing
 Run the following command:
 
-bash
-复制
-编辑
+
 CUDA_VISIBLE_DEVICES=1,2,0 python run.py \
   --output_dir=./saved_models \
   --epoch 4 \
